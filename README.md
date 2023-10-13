@@ -1,11 +1,11 @@
-About scikit-fda
-================
+About scikit-fda-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-fda-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/scikit-fda/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-fda-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functional Data Analysis Python package.
 
