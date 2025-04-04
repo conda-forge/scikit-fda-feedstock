@@ -1,18 +1,18 @@
 {% set name = "scikit-fda" %}
-{% set version = "0.9.1" %}
+{% set version = "0.10.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scikit-fda-{{ version }}.tar.gz
-  sha256: 4a92793eaf2585253ef0ec377620e9ef42b1dbb3be60b765b0c52ccffccb09cf
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 46ef473ccc4ddcec539ab877e5716f349224c1cb685f07425799b5abbe5f08de
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
