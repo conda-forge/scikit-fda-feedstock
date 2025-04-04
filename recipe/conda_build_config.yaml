@@ -1,0 +1,3 @@
+# Change the minimum Python version pin, according to https://conda-forge.org/docs/maintainer/knowledge_base/#noarch-python
+python_min:
+- "3.10"
